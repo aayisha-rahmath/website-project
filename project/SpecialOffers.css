@@ -1,0 +1,217 @@
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22668D;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 13px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #aad1e3;
+}
+
+li a:visited {
+    background-color: #8ECDDD;
+}
+
+/* Header */
+h1 {
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+}
+h4 {
+	font-family: 'Roboto Serif', serif;
+    text-align: center;
+	font-size: 20px;
+}
+
+/* Destination */
+.destination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+}
+
+.box {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin: 10px 0;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #FFCC70;
+    padding: 10px 10px;
+    width: auto;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #70AFFF;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reviews */
+.reviews-container {
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+}
+
+h3 {
+ 
+    text-align: center;
+    background-color: #8ECDDD;
+    color: black;
+    width: 100%;
+    font-family: 'Roboto Serif', serif;
+    padding: 20px;
+    font-size: 25px;
+}
+.star-rating {
+	content: '\2606';
+	color: gold; /* rating star*/
+	content: '\2605';
+}
+	
+/* Review Form  */
+.review-form {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    padding: 10px;
+	background-color: #FFCC70;
+	color: black;
+    border: 2px solid #70AFFF;
+    border-radius: 10px;
+    font-family: 'Roboto Serif', serif;
+	font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+
+/* rating-star */ 
+.rating-star {
+    font-size: 0;
+}
+
+.ratingstar {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ratingstar::before {
+    content: "\2606"; 
+    color: gold;
+}
+
+.ratingstar.checked::before {
+    content: "\2605"; /
+}
+
+.ratingstar:hover::before {
+    content: "\2605"; 
+    color: gold; 
+}
+
+/* Review Image */
+.review-image-left,
+.review-image-right {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.review-image-left {
+    background-image: url('images/review1.jpg');
+    left: 0;
+}
+
+.review-image-right {
+    background-image: url('images/review2.jpg');
+    right: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #FFE3A7;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+    font-family: 'Roboto Serif', serif;
+}

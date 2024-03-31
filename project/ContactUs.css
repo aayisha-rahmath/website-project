@@ -1,0 +1,125 @@
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22668D;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #aad1e3;
+}
+
+li a:visited {
+    background-color: #8ECDDD;
+}
+
+body {
+  background-image: url('images/img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Container */
+.container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-family: 'Roboto Serif', serif;
+
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Roboto Serif', serif;
+  text-align: left;
+  margin-left: 15px;
+}
+
+/* Label */
+label {
+  font-weight: bold;
+  font-family: 'Roboto Serif', serif;
+  font-size: 25px;
+
+}
+
+/* Input and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+textarea {
+  width: 40%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Roboto Serif', serif;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color:#FFCC70;
+  color: black;
+  border: 2px solid #70AFFF; 
+  padding: 20px;
+  width: 20%;
+  border-radius: 10px;
+  font-family: 'Roboto Serif', serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+    background-color: #FFE3A7;
+    text-align: center;
+    color: black;
+	margin-top: 20px;
+    padding: 10px 0;
+    font-family: 'Roboto Serif', serif;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.0;
+    color: black;
+}
+
+.footer strong {
+    font-weight: bold;
+}

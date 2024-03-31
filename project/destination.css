@@ -1,0 +1,120 @@
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22668D;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #aad1e3;
+}
+
+li a:visited {
+    background-color: #8ECDDD;
+}
+
+/* Header */
+header {
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+    background-color: #f0f8fa;
+}
+
+.box {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.box h2 {
+    margin: 10px 0;
+}
+
+.box p {
+    padding: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #FFCC70;
+    padding: 20px 10px;
+    width: auto;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #70AFFF;
+}
+
+/* Section */
+.section {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+}
+
+/* H4 heading */
+h4 {
+    text-align: center;
+    background-color: #8ECDDD;
+    color: black;
+    width: 100%;
+    font-family: 'Roboto Serif', serif;
+    padding: 20px;
+    font-size: 25px;
+}
+
+/* Footer */
+.footer {
+    background-color: #FFE3A7;
+    text-align: center;
+    color: black;
+    width: auto;
+    margin-top: 20px;
+    padding: 20px 0;
+    font-family: 'Roboto Serif', serif;
+}
